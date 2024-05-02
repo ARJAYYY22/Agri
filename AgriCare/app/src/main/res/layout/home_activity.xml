@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="15sp"
+            android:layout_gravity="center"
+            android:src="@drawable/placeholder"
+            android:layout_width="32dp"
+            android:layout_height="32dp">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_marginEnd="15sp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="@font/cabin"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Hey User"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/cabin"
+                android:textSize="13sp"
+                android:textAlignment="center"
+                android:textColor="@color/silver"
+                android:textStyle="bold"
+                android:text="Welcome to AgriCare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_margin="15sp"
+            android:layout_gravity="center"
+            android:layout_width="24dp"
+            android:layout_height="24dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        app:queryHint="Search..."
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.SearchView>
+    
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewCrop"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/clouds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/crops_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/cabin"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="CROPS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewLiveStock"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/clouds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/live_stock_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/cabin"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="LIVESTOCK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewFish"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_gravity="center"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@color/clouds"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/fish_icon"
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="@font/cabin"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="FISH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/cabin"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/cabin"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="This method assists in the growth of our pets or crops. This is a tutorial that teaches us how to care for our crops and livestock. It guides us on what to do in a situation where our pet becomes unhealthy, as well as the proper course of action for our treatment. This application can assist you in determining what steps to take in the event that a disease infects your crops or livestock."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
