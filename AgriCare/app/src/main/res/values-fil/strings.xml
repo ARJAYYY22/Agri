@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AgriCare</string>
+    <string name="crops">PANANIM</string>
+    <string name="livestock">HAYOP</string>
+    <string name="fish">ISDA</string>
+    <string name="rice">Palay</string>
+    <string name="sugar_cane">Tubo</string>
+    <string name="corn">Mais</string>
+    <string name="tilapia">Tilapia</string>
+    <string name="hito">Hito</string>
+    <string name="chicken">Manok</string>
+    <string name="pig">Baboy</string>
+    <string name="cow">Baka</string>
+    <string name="goat">Kambing</string>
+    <string name="how_to_plant">Paano Magtanim</string>
+    <string name="pesticides">Mga Pesticides</string>
+    <string name="how_to_care">Paano Alagaan</string>
+    <string name="how_to_treat">Paano Mag-Alaga</string>
+</resources>

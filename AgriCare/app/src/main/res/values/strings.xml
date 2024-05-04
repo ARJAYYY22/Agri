@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AgriCare</string>
+    <string name="crops">CROPS</string>
+    <string name="livestock">LIVESTOCK</string>
+    <string name="fish">FISH</string>
+    <string name="rice">Rice</string>
+    <string name="sugar_cane">Sugar Cane</string>
+    <string name="corn">Corn</string>
+    <string name="tilapia">Tilapia</string>
+    <string name="hito">Cat Fish</string>
+    <string name="chicken">Chicken</string>
+    <string name="pig">Pig</string>
+    <string name="cow">Cow</string>
+    <string name="goat">Goat</string>
+    <string name="how_to_plant">How to plant</string>
+    <string name="pesticides">Pesticides</string>
+    <string name="how_to_care">How to care</string>
+    <string name="how_to_treat">How to treat</string>
 </resources>

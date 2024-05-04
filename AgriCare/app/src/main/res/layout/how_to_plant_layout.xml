@@ -39,33 +39,9 @@
         </TextView>
     </LinearLayout>
 
-    <TextView
-        android:layout_gravity="center"
-        android:layout_marginTop="25dp"
-        android:fontFamily="@font/baloobhai"
-        android:textSize="24sp"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="Paano Magtanim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </TextView>
-
-    <TextView
-        android:id="@+id/tvDescription"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:fontFamily="@font/baloobhai"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="Description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </TextView>
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

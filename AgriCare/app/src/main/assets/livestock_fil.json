@@ -1,0 +1,27 @@
+[
+     {
+            "label":"Manok",
+            "description":"ALAGA NG MANOK",
+            "prevention": "Manok Prevention",
+            "image": "chicken"
+        },
+        {
+            "label":"BABOY",
+            "description":"ALAGA NG BABOY",
+            "prevention": "BABOY PREVENTION",
+            "image": "pig"
+        },
+        {
+            "label":"BAKA",
+            "description":"ALAGA NG BAKA",
+            "prevention": "BAKA PREVENTION",
+            "image": "cow"
+        },
+        {
+          "label":"KAMBING",
+          "description":"ALAGA NG KAMBING",
+          "prevention": "KAMBING PREVENTION",
+          "image": "goat"
+        }
+
+]

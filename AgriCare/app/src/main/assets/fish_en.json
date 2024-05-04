@@ -1,0 +1,14 @@
+[
+     {
+            "label":"Tilapia",
+            "description":"ALAGA NG Tilapia",
+            "prevention": "Tilapia Prevention",
+            "image": "tilapia"
+        },
+        {
+            "label":"Cat Fish",
+            "description":"ALAGA NG Hito",
+            "prevention": "Tilapia PREVENTION",
+            "image": "hito"
+        }
+]

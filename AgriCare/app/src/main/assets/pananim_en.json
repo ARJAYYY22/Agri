@@ -1,0 +1,20 @@
+[
+     {
+            "label":"Rice",
+            "description":"TUTORIAL PAANO MAG TANIM NG PALAY",
+            "prevention": "GINAGAMIT ITO UPANG PUMATAY NG MGA DAMO SA ATING PANANIM",
+            "image": "palay"
+        },
+        {
+            "label":"Sugar Cane",
+            "description":"TUTORIAL PAANO MAG TANIM NG TUBO",
+            "prevention": "asdsadsad",
+            "image": "tubo"
+        },
+        {
+            "label":"Corn",
+            "description":"TUTORIAL PAANO MAGTANIM NG MAIS",
+            "prevention": "asdsadsad",
+            "image": "mais"
+        }
+]

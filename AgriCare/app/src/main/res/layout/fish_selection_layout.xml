@@ -29,7 +29,7 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:text="Tilapia"
+            android:text="@string/tilapia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -68,7 +68,7 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:text="Hito"
+            android:text="@string/hito"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
